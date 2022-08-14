@@ -1,0 +1,72 @@
+* {
+padding: 0;
+margin: 0;
+}
+@font-face {
+    font-family:'divertidamente';
+    src: url('Intensa\ Fuente.ttf') format('truetype');
+    font-weight: normal;
+    fonte-style: normal;
+}
+body{
+    color: white;
+    background-image: linear-gradient(to bottom, black 25%,#100553,#002765,#004E8E,#0385A5);
+    background-attachment: fixed;
+    font-family: divertidamente;
+}
+header{
+    height: 100px;
+    display : flex;
+    justify-content: center;
+}
+
+.logo{
+       height: 80px;
+       align-self: center;
+}
+
+main {
+    padding-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo{
+    font-family: divertidamente;
+    font-size: 32px;
+    font-weight: 30px;
+    color: white ;
+}
+.subtitulo{
+    font-weight: 30px;
+}
+.personagens-container li{
+    width: 10px;
+    font-weight: 30px;
+}
+.personagens-container ul{
+    padding-left: 32px;
+    font-weight: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    font-family: divertidamente;
+    font-size: 20px;
+    font-weight: 30px;
+    border-right: 20px;
+    
+}
