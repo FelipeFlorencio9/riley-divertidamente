@@ -51,6 +51,9 @@ main {
 .subtitulo{
     font-weight: 30px;
 }
+a{
+    color: white;
+}
 .personagens-container li{
     width: 10px;
     font-weight: 30px;
