@@ -55,9 +55,32 @@ main {
     width: 10px;
     font-weight: 30px;
 }
-.personagens-container ul{
+.lista-personagens{
     padding-left: 32px;
     font-weight: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.lista-personagens li{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+.lista-personagens img{
+    height: 250px;
+
 }
 
 footer{
