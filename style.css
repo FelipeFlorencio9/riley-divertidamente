@@ -8,21 +8,26 @@ margin: 0;
     font-weight: normal;
     fonte-style: normal;
 }
-body{
+
+.text-links{
     color: white;
-    background-image: linear-gradient(to bottom, black 25%,#100553,#002765,#004E8E,#0385A5);
-    background-attachment: fixed;
-    font-family: divertidamente;
 }
 header{
     height: 100px;
     display : flex;
     justify-content: center;
 }
-
 .logo{
-       height: 80px;
-       align-self: center;
+    height: 10rem;
+    align-self: center;
+}
+
+body{
+    color: white;
+    background-image: linear-gradient(to bottom, black 25%,#100553,#002765,#004E8E,#0385A5);
+    background-attachment: fixed;
+    font-family: divertidamente;
+    font-weight: 100%;
 }
 
 main {
@@ -30,47 +35,69 @@ main {
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1rem;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+}
 
+.movie-info{
+    height: 10rem;
+    font-size: 2rem;
+   
+}
 
 .intro-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1rem;
+
+}
+.riley-img{
+   height: 40%;
+   width: 30%;
+
 }
 
-.titulo{
+.list-title{
+    align-self: center;
+    font-size: 1.5rem;
+}
+.title{
     font-family: divertidamente;
-    font-size: 32px;
-    font-weight: 30px;
+    font-size: 4rem;
+    padding-bottom: 0%;
     color: white ;
 }
-.subtitulo{
-    font-weight: 30px;
+.subtitle{
+    padding-top: 0%;
+    font-size: 3rem;
+  
 }
-a{
-    color: white;
-}
-.personagens-container li{
+
+.cards-section li{
     width: 10px;
     font-weight: 30px;
 }
-.lista-personagens{
+
+.personages-list{
     padding-left: 32px;
     font-weight: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     width: 100vw;
     gap: 48px;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
-.lista-personagens li{
+.personages-list li{
     width: 250px;
     display: flex;
     flex-direction: row;
@@ -81,9 +108,9 @@ a{
 
 
 
-.lista-personagens img{
+.personages-list img{
     height: 250px;
-    align-self: flex-end
+    align-self: flex-end;
 }
 
 #alegriaImg {
